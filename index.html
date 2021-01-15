@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Css-->
+    <style>
+        .tm-social {
+            width: 50px;
+            height: 50px;
+        }
+
+        .p-30 {
+            padding: 30px;
+        }
+
+        .br-50 {
+            border-radius: 50%;
+        }
+    </style>
+
+    <title>Olá, mundo!</title>
+</head>
+
+<body>
+
+    <!--NavBar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand" href="#">Olá Mundo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="#fotos">Fotos do Universo <span class="sr-only">(página
+                            atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="#video">Vídeo<span class="sr-only">(página
+                        atual)</span></a>
+
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="#texto">Texto <span class="sr-only">(página
+                                atual)</span></a>
+                        </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="#contato">Fomulário<span class="sr-only">(página
+                        atual)</span></a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link  text-light dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Redes Sociais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <a class="dropdown-item" id='instag' href="https://www.instagram.com/ " target="black"
+                            onmouseover="mudaCor1()" onmouseout="voltarCor1()">Instagram</a>
+
+                        <div class="dropdown-divider"></div>
+
+
+                        <a class="dropdown-item" id='linked' href="https://www.linkedin.com/feed/" target="black"
+                            onmouseover="mudaCor2()" onmouseout="voltarCor2()">LinkedIn</a>
+
+
+                    </div>
+                </li>
+
+            </ul>
+
+    </nav>
+    <!--/NavBar-->
+
+    <!--Imagens-->
+    <div class="container">
+        <h2 class="text-center mt-5" id="fotos">Imagens</h2>
+        <div class="row mt-5 mb-5 row ml-5">
+
+            <div class="col-md-6">
+
+                <img src="assets/img/imagem_1.jpg" alt="fotos do universo">
+
+            </div>
+
+            <div class="col-md-6 ">
+
+                <img src="assets/img/imagem_2.jpg" alt="fotos do universo">
+
+            </div>
+
+        </div>
+        <div class="row mt-5 mb-5 ml-5">
+
+            <div class="col-md-6">
+
+                <img src="assets/img/imagem_3.jpg" alt="fotos do universo">
+
+            </div>
+
+            <div class="col-md-6">
+
+                <img src="assets/img/imagem_4.jpg" alt="fotos do universo">
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--/Imagens-->
+
+    <!--Video-->
+    <h2 class="text-center" id="video">Vídeo</h2>
+    <div class="text-center mb-5 mt-5">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bpOSxM0rNPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+    <!--/Video-->
+
+    <!--Texto-->
+
+    <div class="container">
+        <h3 class="text-center mb-4" id="texto">Texto</h3>
+
+        <p class="justify" >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis id aperiam nobis corporis
+            impedit, magnam illum placeat quo iste ullam cumque laboriosam. Voluptatibus odit, laboriosam sunt
+            eveniet laudantium dolorum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perferendis sequi sunt vel, vitae dolor harum praesentium provident consectetur, iusto minus dicta nam libero, corrupti ad aliquid veritatis. Laudantium, quia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis id aperiam nobis corporis
+            impedit, magnam illum placeat quo iste ullam cumque laboriosam. Voluptatibus odit, laboriosam sunt
+            eveniet laudantium dolorum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perferendis sequi sunt vel, vitae dolor harum praesentium provident consectetur, iusto minus dicta nam libero, corrupti ad aliquid veritatis. Laudantium, quia.
+        </p>
+        <p class="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis id aperiam nobis corporis
+            impedit, magnam illum placeat quo iste ullam cumque laboriosam. Voluptatibus odit, laboriosam sunt
+            eveniet laudantium dolorum?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, quis eos ipsum non enim quaerat deserunt rem perferendis quae harum. Modi praesentium id maiores aut quidem placeat totam. Numquam, laboriosam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis id aperiam nobis corporis
+            impedit, magnam illum placeat quo iste ullam cumque laboriosam. Voluptatibus odit, laboriosam sunt
+            eveniet laudantium dolorum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perferendis sequi sunt vel, vitae dolor harum praesentium provident consectetur, iusto minus dicta nam libero, corrupti ad aliquid veritatis. Laudantium, quia.
+        </p>
+    </div>
+
+    <!--/Texto-->
+
+    <hr>
+    <!--Formulário-->
+
+    <h1 class="text-center" id="contato">
+        entre em contato comigo
+    </h1>
+
+
+  
+
+
+
+    <div class="container mb-50">
+
+        <div class="row d-flex align-content-center">
+            <div class="col-md-6">
+
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome: </label><br>
+                        <input type="text" id="nome" onkeyup="validaNome()">
+                        <div id=txtNome></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail: </label><br>
+                        <input type="email" id="email" onkeyup="validaEmail()">
+                        <div id=txtEmail></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="assunto">Assunto: </label><br>
+                        <textarea id="assunto" cols="74" rows="3" onkeyup="validaAssunto()"></textarea>
+                        <div id=txtAssunto></div>
+                    </div>
+
+                    <div>
+                        <button onclick="enviar()" class="btn btn-outline-success my-2 my-sm-0">Enviar</button>
+
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="text-center col-md-6">
+
+
+                <img src="assets/img/aprovacao.jpg" class="br-50 p-30" width="350" height="300" alt="joinha">
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <!--/Formulário-->
+
+
+
+
+
+    <!--Footer-->
+    <hr>
+    <footer>
+
+        <div class="row  mb-3">
+
+            <div class="col-md-12 d-flex justify-content-center">
+
+
+                <a href="https://www.instagram.com/" target="black" class="p-3">
+                    <img class="tm-social" src="assets/img/instagram.svg">
+                </a>
+                <a href="https://www.linkedin.com/feed/" target="black" class="p-3">
+                    <img class="tm-social" src="assets/img/linkedin.svg">
+                </a>
+
+            </div>
+
+        </div>
+
+        </div>
+
+        <div class="col-md-12 d-flex justify-content-center">
+
+            <p class="text-center">
+            <h5> Todos os direitos reservados: Bruno Estivalli &copy </h5>
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!--/Footer-->
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+
+    <script src="assets/js/script.js"></script>
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
