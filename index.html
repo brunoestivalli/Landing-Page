@@ -25,12 +25,15 @@
             border-radius: 50%;
         }
 
+
+        .bk {
+            background: blue;
+        }
+
         .bk1 {
             background-image: url(assets/img/buraco_negro.jpg);
             background-position-x: center;
             background-position-y: center;
-
-
         }
 
         .bk2 {
@@ -40,7 +43,7 @@
         }
     </style>
 
-    <title></title>
+    <title>Space Curiosity</title>
 </head>
 
 <body>
@@ -69,13 +72,15 @@
                 </li>
 
                 <li class="nav-item active">
-                    <a class="nav-link text-light" href="#video">Vídeo<span class="sr-only">(página
-                            atual)</span></a>
-
-                <li class="nav-item active">
                     <a class="nav-link text-light" href="#texto">Texto <span class="sr-only">(página
                             atual)</span></a>
                 </li>
+                
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="#video">Vídeo<span class="sr-only">(página
+                            atual)</span></a>
+
+               
 
                 <li class="nav-item active">
                     <a class="nav-link text-light" href="#contato">Fomulário<span class="sr-only">(página
@@ -85,6 +90,7 @@
             </ul>
 
     </nav>
+    <div class="bk"></div>
 
     <!--/NavBar-->
 
@@ -159,38 +165,43 @@
     <!--/Imagens-->
 
     <!--Carrosel-->
+
     <div class="mb-5 mt-5 text-light" id="Ovnis"> .</div>
-    <div class="container">
-        <h3>Avistamentos Ufológicos</h3>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/img/ovni.jpg" alt="Primeiro Slide">
+    
+        <div class="container w-50 ">
+            <h3 class="text-center mb-4">Avistamentos Ufológicos</h3>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel ">
+                <div class="carousel-inner">
+                    <div class="carousel-item active align-items-center">
+                        <img class="d-block w-100" src="assets/img/ovni.jpg" alt="Primeiro Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/ovni1.jpg" alt="Segundo Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/ovni2.jpg" alt="Terceiro Slide">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/img/ovni1.jpg" alt="Segundo Slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/img/ovni2.jpg" alt="Terceiro Slide">
-                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
         </div>
-    </div>
+    
     <!--/Carrosel-->
 
     <!--Texto-->
 
     <div class="container">
+    
 
         <div class=" mt-5 text-light" id="texto"> .</div>
+    
         <h3 class="text-center mt-5" id="texto">Texto</h3>
 
         <div class="mb-5 text-light" id="buraco_negro">.</div>
@@ -310,34 +321,43 @@
             </div>
 
             <div class="text-right col-md-3">
-                <img src="assets/img/john_michell.jpg" alt="">
+                <img src="assets/img/john_michell.jpg" alt="John Michell">
             </div>
         </div>
-        <h5>Horizonte de eventos</h5>
-        <div class="row d-flex align-content-center">
-            <div class="text-left col-md-5">
+        <h5 class="mt-5 mb-5 ">Horizonte de eventos</h5>
+        <div class="row d-flex">
+            <div class=" col-md-5">
                 <img src="assets/img/horizonte-de-eventos2.jpg" weigth=550 height="275">
             </div>
             <div class="col-md-7">
+
                 <p class="text-justify"></p>
-                A característica definidora de um buraco negro é o surgimento de um horizonte de eventos — um limite no
-                espaço-tempo através do qual matéria e luz podem passar apenas para dentro em direção à massa do buraco
+                A característica definidora de um buraco negro é o surgimento de um horizonte de eventos — um limite
+                no
+                espaço-tempo através do qual matéria e luz podem passar apenas para dentro em direção à massa do
+                buraco
                 negro.
-                Nada, nem mesmo a luz, pode escapar de dentro do horizonte de eventos. O horizonte de eventos é referido
+                Nada, nem mesmo a luz, pode escapar de dentro do horizonte de eventos. O horizonte de eventos é
+                referido
                 como
-                tal porque se um evento ocorrer dentro dos limites, as informações desse evento não poderão alcançar um
+                tal porque se um evento ocorrer dentro dos limites, as informações desse evento não poderão alcançar
+                um
                 observador externo, tornando impossível determinar se esse evento ocorreu.
                 </p>
 
                 <p class="text-justify">
-                    Como previsto pela relatividade geral, a presença de uma massa deforma o espaço-tempo de tal maneira
+                    Como previsto pela relatividade geral, a presença de uma massa deforma o espaço-tempo de tal
+                    maneira
                     que
                     os
-                    caminhos percorridos pelas partículas se inclinam em direção à massa. No horizonte de eventos de um
-                    buraco negro, essa deformação se torna tão forte que não há caminhos que se afastem do buraco negro.
+                    caminhos percorridos pelas partículas se inclinam em direção à massa. No horizonte de eventos de
+                    um
+                    buraco negro, essa deformação se torna tão forte que não há caminhos que se afastem do buraco
+                    negro.
                 </p>
             </div>
-           
+
+
         </div>
         <p class="text-justify">
             Para um observador distante, os relógios perto de um buraco negro parecem marcar mais lentamente do que
@@ -412,128 +432,171 @@
 
         <div class="mb-5 mt-5 text-light" id=buraco_minhoca> .</div>
         <p class="text-justify">
-        <h3>Buracos de Minhoca</h3>
-        <p class="text-justify">
-            Na física, um buraco de minhoca é uma característica topológica hipotética do contínuo
-            espaço-tempo, a qual é, em essência, um “atalho” através do espaço e do tempo. Um buraco de minhoca
-            possui
-            ao menos duas “bocas” conectadas a uma única “garganta” ou “tubo”. Se o buraco de minhoca é
-            transponível, a
-            matéria pode “viajar” de uma boca para outra passando através da garganta. Embora não exista evidência
-            direta da existência de buracos de minhoca, um contínuo espaço-temporal contendo tais entidades costuma
-            ser
-            considerado válido pela relatividade geral.
-        </p>
-        <p class="text-justify">
-            Na física, um buraco de minhoca é uma característica topológica hipotética do contínuo
-            espaço-tempo, a qual é, em essência, um “atalho” através do espaço e do tempo. Um buraco de minhoca
-            possui
-            ao menos duas “bocas” conectadas a uma única “garganta” ou “tubo”. Se o buraco de minhoca é
-            transponível, a
-            matéria pode “viajar” de uma boca para outra passando através da garganta. Embora não exista evidência
+        <h3 class="mb-4">Buracos de Minhoca</h3>
+        <div class="row d-flex">
+            <div class=" col-md-5">
+                <img src="assets/img/buraco_minhoca4.jpg" class="align-items-center" weigth=550 height="275">
+            </div>
+            <div class="col-md-7">
+                <p class="text-justify">
+                    Na física, um buraco de minhoca é uma característica topológica hipotética do contínuo
+                    espaço-tempo, a qual é, em essência, um “atalho” através do espaço e do tempo. Um buraco de minhoca
+                    possui
+                    ao menos duas “bocas” conectadas a uma única “garganta” ou “tubo”. Se o buraco de minhoca é
+                    transponível, a
+                    matéria pode “viajar” de uma boca para outra passando através da garganta. Embora não exista
+                    evidência
+                    direta da existência de buracos de minhoca, um contínuo espaço-temporal contendo tais entidades
+                    costuma
+                    ser
+                    considerado válido pela relatividade geral.
+                </p>
+                <p class="text-justify">
+                    Na física, um buraco de minhoca é uma característica topológica hipotética do contínuo
+                    espaço-tempo, a qual é, em essência, um “atalho” através do espaço e do tempo. Um buraco de minhoca
+                    possui
+                    ao menos duas “bocas” conectadas a uma única “garganta” ou “tubo”. Se o buraco de minhoca é
+                    transponível, a
+                    matéria pode “viajar” de uma boca para outra passando através da garganta.
+            </div> Embora não exista evidência
             direta da existência de buracos de minhoca, um contínuo espaço-temporal contendo tais entidades costuma
             ser
             considerado válido pela relatividade geral.</p>
-        <p class="text-justify">
-            Esta análise força a se considerar situações em que há um fluxo de rede de linhas de força
-            através do que os topologistas poderiam chamar de alça ou espaço multiplamente conectado e que os
-            físicos
-            poderiam ser desculpados por denominar mais vividamente de 'buraco de minhoca'.
-            — John Wheeler em Annals of Physics</p>
-        <p class="text-justify">
-            O nome "buraco de minhoca" vem de uma analogia usada para explicar o fenômeno. Da mesma forma
-            que uma minhoca que perambula pela casca de uma maçã poderia pegar um atalho para o lado oposto da casca
-            da
-            fruta abrindo caminho através do miolo, em vez de mover-se por toda a superfície até lá, um viajante que
-            passasse por um buraco de minhoca pegaria um atalho para o lado oposto do universo através de um túnel
-            topologicamente incomum.</p>
-        <p class="text-justify">
-        <h5>Tipos de buracos de minhoca</h5>
-        Buracos de minhoca intra-universos conectam um local em um universo a outro local do mesmo universo (no
-        mesmo
-        tempo presente ou não presente). Um buraco de minhoca deverá ser capaz de conectar locais distantes no
-        universo
-        criando um atalho através do espaço-tempo, permitindo viajar entre eles mais rápido do que a luz levaria
-        para
-        transitar pelo espaço normal (ver a imagem acima). Buracos de minhoca inter-universos conectam um universo a
-        outro. Isto dá margem à especulação de que tais buracos de minhoca poderiam ser usados para viajar de um
-        universo paralelo para outro. Um buraco de minhoca que conecta universos (geralmente fechados) é
-        frequentemente
-        denominado como wormhole de Schwarzschild. Outra aplicação de um buraco de minhoca poderia ser a viagem no
-        tempo. Neste caso, é um atalho de um ponto no espaço-tempo para outro. Na teoria das cordas, o buraco de
-        minhoca
-        tem sido visto como uma conexão entre duas D-branas, onde as bocas estão ligadas às branas e são conectadas
-        por
-        um tubo de fluxo. Finalmente, acredita-se que buracos de minhoca sejam parte da espuma quântica. Existem
-        dois tipos principais de buracos de minhoca: buracos de minhoca lorentzianos e buracos de minhoca
-        euclidianos.
-        Os buracos de minhoca lorentzianos são estudados primordialmente na relatividade geral e gravitação
-        semiclássica, enquanto os buracos de minhoca euclidianos são estudados em física de partículas. Buracos de
-        minhoca transponíveis são um tipo especial de buraco de minhoca lorentziano que permitiriam que uma pessoa
-        viajasse de um lado do buraco de minhoca ao outro. Serguei Krasnikov sugeriu a expressão atalho de
-        espaço-tempo
-        (spacetime shortcut) como uma descrição mais geral de buracos de minhoca (transponíveis) e sistemas de
-        propulsão
-        como a métrica de Alcubierre e o tubo de Krasnikov para indicar viagens interestelares mais rápidas que a
-        luz.
-        </p>
 
-        <p class="text-justify">
-        <h5>Base teórica</h5>
-        Sabe-se que buracos de minhoca (lorentzianos) não são excluídos do arcabouço da relatividade geral, mas a
-        plausabilidade física destas soluções é incerta. Também não se sabe se uma teoria de gravitação quântica,
-        que
-        juntasse a relatividade geral com a mecânica quântica, ainda permitiria a existência deles. A maioria das
-        soluções conhecidas da relatividade geral que permitiriam buracos de minhoca transponíveis exigem a
-        existência
-        de matéria exótica, uma substância teórica que possui densidade de energia negativa. Todavia, não foi
-        matematicamente provado que isto é um requisito absoluto para buracos de minhoca transponíveis, nem foi
-        estabelecido que a matéria exótica não possa existir.
-        </p>
-        <p class="text-justify">
-        <h5> Entrando num buraco de minhoca</h5>
-        Teoricamente, se alguém encontrasse um buraco de minhoca e viajasse através dele, os cientistas não têm
-        certeza
-        sobre como isso afetaria o indivíduo. Alguns acreditam que um buraco de minhoca não se manteria estável por
-        tempo suficiente para permitir a travessia. E existem teorias que sugerem que mesmo que ele permaneça
-        estável,
-        as forças de maré na vizinhança do buraco podem produzir acelerações tão grandes que esmagariam qualquer
-        viajante comprimindo-o transversalmente e esticando-o na direção longitudinal.
-        </p>
-        <p class="text-justify">
-        <h5>Buracos de minhoca de Schwarzschild</h5>
-        Diagrama integrado de um buraco de minhoca de Schwarzschild.
-        Buracos de minhoca lorentzianos, conhecidos como buracos de minhoca de Schwarzschild ou pontes de
-        Einstein-Rosen
-        são pontes entre áreas do espaço que podem ser modeladas como soluções de vácuo para as equações de campo de
-        Einstein ao combinar os modelos de um buraco negro e um buraco branco. Esta solução foi descoberta por
-        Albert
-        Einstein e seu colega Nathan Rosen, os quais publicaram o resultado em 1935. Todavia, em 1962 John A.
-        Wheeler e
-        Robert W. Fuller publicaram um artigo demonstrando que este tipo de buraco de minhoca é instável, e que ele
-        colapsará instantaneamente tão logo se forme, impedindo que mesmo a luz consiga atravessá-lo.
-        </p>
-        <p class="text-justify">
-            Antes que os problemas de estabilidade dos buracos de minhoca de Schwarzschild se tornassem aparentes,
-            foi
-            proposto que quasares eram buracos brancos, constituindo o fim de buracos de minhoca deste tipo.
+            <p class="text-justify">
+                Esta análise força a se considerar situações em que há um fluxo de rede de linhas de força
+                através do que os topologistas poderiam chamar de alça ou espaço multiplamente conectado e que os
+                físicos
+                poderiam ser desculpados por denominar mais vividamente de 'buraco de minhoca'.
+                — John Wheeler em Annals of Physics</p>
+            <p class="text-justify">
+                O nome "buraco de minhoca" vem de uma analogia usada para explicar o fenômeno. Da mesma forma
+                que uma minhoca que perambula pela casca de uma maçã poderia pegar um atalho para o lado oposto da casca
+                da
+                fruta abrindo caminho através do miolo, em vez de mover-se por toda a superfície até lá, um viajante que
+                passasse por um buraco de minhoca pegaria um atalho para o lado oposto do universo através de um túnel
+                topologicamente incomum.</p>
 
-            Embora buracos de minhoca de Schwarzschild não sejam transponíveis, sua existência inspirou Kip Thorne a
-            imaginar buracos de minhoca transponíveis criados mantendo-se aberta a “garganta” de um buraco de
-            minhoca de
-            Schwarzschild com matéria exótica (matéria que possui massa/energia negativa).
+            <p class="text-justify">
+            <h5 class="mb-3 mt-4">Tipos de buracos de minhoca</h5>
+            Buracos de minhoca intra-universos conectam um local em um universo a outro local do mesmo universo (no
+            mesmo
+            tempo presente ou não presente). Um buraco de minhoca deverá ser capaz de conectar locais distantes no
+            universo
+            criando um atalho através do espaço-tempo, permitindo viajar entre eles mais rápido do que a luz levaria
+            para
+            transitar pelo espaço normal (ver a imagem acima). Buracos de minhoca inter-universos conectam um universo a
+            outro. Isto dá margem à especulação de que tais buracos de minhoca poderiam ser usados para viajar de um
+            universo paralelo para outro. Um buraco de minhoca que conecta universos (geralmente fechados) é
+            frequentemente
+            denominado como wormhole de Schwarzschild. Outra aplicação de um buraco de minhoca poderia ser a viagem no
+            tempo. Neste caso, é um atalho de um ponto no espaço-tempo para outro. Na teoria das cordas, o buraco de
+            minhoca
+            tem sido visto como uma conexão entre duas D-branas, onde as bocas estão ligadas às branas e são conectadas
+            por
+            um tubo de fluxo. Finalmente, acredita-se que buracos de minhoca sejam parte da espuma quântica. Existem
+            dois tipos principais de buracos de minhoca: buracos de minhoca lorentzianos e buracos de minhoca
+            euclidianos.
+            Os buracos de minhoca lorentzianos são estudados primordialmente na relatividade geral e gravitação
+            semiclássica, enquanto os buracos de minhoca euclidianos são estudados em física de partículas. Buracos de
+            minhoca transponíveis são um tipo especial de buraco de minhoca lorentziano que permitiriam que uma pessoa
+            viajasse de um lado do buraco de minhoca ao outro. Serguei Krasnikov sugeriu a expressão atalho de
+            espaço-tempo
+            (spacetime shortcut) como uma descrição mais geral de buracos de minhoca (transponíveis) e sistemas de
+            propulsão
+            como a métrica de Alcubierre e o tubo de Krasnikov para indicar viagens interestelares mais rápidas que a
+            luz.
+            </p>
 
-        </p>
-    </div>
+            <p class="text-justify">
+            <h5 class="mt-3">Base teórica</h5>
+            Sabe-se que buracos de minhoca (lorentzianos) não são excluídos do arcabouço da relatividade geral, mas a
+            plausabilidade física destas soluções é incerta. Também não se sabe se uma teoria de gravitação quântica,
+            que
+            juntasse a relatividade geral com a mecânica quântica, ainda permitiria a existência deles. A maioria das
+            soluções conhecidas da relatividade geral que permitiriam buracos de minhoca transponíveis exigem a
+            existência
+            de matéria exótica, uma substância teórica que possui densidade de energia negativa. Todavia, não foi
+            matematicamente provado que isto é um requisito absoluto para buracos de minhoca transponíveis, nem foi
+            estabelecido que a matéria exótica não possa existir.
+            </p>
+            <h5 class=" mt-5"> Entrando num buraco de minhoca</h5>
+            <div class="row d-flex">
 
-    <!--/Texto-->
-    <div class="mb-5 mt-5 text-light" id="video"> .</div>
-    <!--Video-->
-    <h2 class="text-center mt-5">Vídeo</h2>
-    <div class="text-center mb-5 mt-5">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/bpOSxM0rNPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-        encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+                <div class="col-md-7">
+
+                    <p class="text-justify mt-3">
+
+                        Teoricamente, se alguém encontrasse um buraco de minhoca e viajasse através dele, os cientistas
+                        não
+                        têm
+                        certeza
+                        sobre como isso afetaria o indivíduo. Alguns acreditam que um buraco de minhoca não se manteria
+                        estável por
+                        tempo suficiente para permitir a travessia. E existem teorias que sugerem que mesmo que ele
+                        permaneça
+                        estável,
+                        as forças de maré na vizinhança do buraco podem produzir acelerações tão grandes que esmagariam
+                        qualquer
+                        viajante comprimindo-o transversalmente e esticando-o na direção longitudinal.
+                    </p>
+                </div>
+                <div class=" col-md-5 text-center">
+                    <img src="assets/img/buraco_minhoca5.jpg" weigth=300 height=190>
+                </div>
+            </div>
+            <p class="text-justify">
+            <h5 class="mb-3 mt-4">Buracos de minhoca de Schwarzschild</h5>
+            Diagrama integrado de um buraco de minhoca de Schwarzschild.
+            Buracos de minhoca lorentzianos, conhecidos como buracos de minhoca de Schwarzschild ou pontes de
+            Einstein-Rosen
+            são pontes entre áreas do espaço que podem ser modeladas como soluções de vácuo para as equações de campo de
+            Einstein ao combinar os modelos de um buraco negro e um buraco branco. Esta solução foi descoberta por
+            Albert
+            Einstein e seu colega Nathan Rosen, os quais publicaram o resultado em 1935. Todavia, em 1962 John A.
+            Wheeler e
+            Robert W. Fuller publicaram um artigo demonstrando que este tipo de buraco de minhoca é instável, e que ele
+            colapsará instantaneamente tão logo se forme, impedindo que mesmo a luz consiga atravessá-lo.
+            </p>
+
+            <p class="text-justify">
+                Antes que os problemas de estabilidade dos buracos de minhoca de Schwarzschild se tornassem aparentes,
+                foi
+                proposto que quasares eram buracos brancos, constituindo o fim de buracos de minhoca deste tipo.
+
+                Embora buracos de minhoca de Schwarzschild não sejam transponíveis, sua existência inspirou Kip Thorne a
+                imaginar buracos de minhoca transponíveis criados mantendo-se aberta a “garganta” de um buraco de
+                minhoca de
+                Schwarzschild com matéria exótica (matéria que possui massa/energia negativa).
+
+            </p>
+        </div>
+
+        <!--/Texto-->
+        <div class="mb-5 mt-5 text-light" id="video"> .</div>
+        <!--Video-->
+        <h2 class="text-center mt-5">Vídeos</h2>
+        <div class="row mx-3 text-center">
+            <div class="col-sm-6 mt-5">
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/1A76blKxcrA" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="mt-3 mb-3">
+                    <h5>Buraco Negro</h5>
+                </div>
+            </div>
+
+            <div class="col-sm-6 mb-5 mt-5">
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/pY03hV8gezs" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="mt-3 mb-3">
+                    <h5>Buraco de Minhoca</h5>
+                </div>
+            </div>
+
+        </div>
+
     </div>
     <!--/Video-->
 
@@ -579,20 +642,12 @@
 
             <div class="text-center col-md-6">
 
-
                 <img src="assets/img/aprovacao.jpg" class="br-50 p-30" width="350" height="300" alt="joinha">
 
             </div>
         </div>
-
-
-
     </div>
     <!--/Formulário-->
-
-
-
-
 
     <!--Footer-->
     <hr>
@@ -626,14 +681,24 @@
         </div>
         <div class="col-md-12 d-flex justify-content-center">
             <p class="text-center">
-            <h6>Informações retiradas da wikipédia</h6>
+            <h6>Informações retiradas da wikipédia <br></h6>
             </p>
         </div>
+        <div class="col-md-12 d-flex justify-content-center">
+            <p class="text-center">
+                <h6>Vídeos retirados do YouTube:  </h6>
+            </p>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+            <p class="text-center">
+                <h6>BBC News Brasil e Ei Nerd </h6>
+            </p>
+        </div>
+        
 
     </footer>
 
     <!--/Footer-->
-
 
 
 
